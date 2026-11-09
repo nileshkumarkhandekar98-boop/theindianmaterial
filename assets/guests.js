@@ -84,11 +84,11 @@
   const WEEKS = [
     ["Week 1", "1", "Confirm and research", "The package is agreed, the shoot date is fixed and we study your work.", false],
     ["Week 2", "2", "Script", "A pre-shoot call, then the questions, 9 hooks and carousel outline come to you for approval.", false],
-    ["Gate", "₹", "Advance paid", "₹12,500, on confirming the shoot date.", true],
+    ["Gate", "₹", "Advance paid", "₹20,000, on confirming the shoot date.", true],
     ["Week 3", "3", "Shoot day", "2–3 hours with two cameras, mics, lights and crew.", false],
     ["Weeks 4–5", "4–5", "Edit and revise", "The 9 reels and the carousel, with two rounds of changes.", false],
-    ["Gate", "₹", "Edits approved", "The balance of ₹12,500, before the first post goes live.", true],
     ["Weeks 6–9", "6–9", "Posting", "10 collab posts, 2–3 a week at 7:30 PM IST.", false],
+    ["Gate", "₹", "First reel live", "The balance of ₹5,000, once the first reel is live.", true],
     ["Week 13", "13", "Results report", "Views, reach, saves and shares, 30 days after the last post.", false]
   ];
   let wsel = 3;
@@ -132,7 +132,7 @@
   const who = person ? person.first : "You";
   $("next-list").innerHTML = [
     who + " confirms the package and picks a shoot date",
-    "Advance of ₹12,500 paid",
+    "Advance of ₹20,000 paid",
     "Pre-shoot call, then questions and hooks shared for approval",
     "Shoot day",
     "First edits shared for review"

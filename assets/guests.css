@@ -92,7 +92,7 @@
 .addon small { color: var(--stone); font-size: 13px; line-height: 1.5; }
 .pay { background: var(--night); padding: 48px 40px; display: grid; gap: 20px; align-content: start; min-width: 0; }
 .pay h3 { font-size: 34px; }
-.split { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.split { display: grid; grid-template-columns: 4fr 1fr; gap: 6px; }
 .split i { height: 3px; background: var(--brass); }
 .split i + i { opacity: .55; }
 .pay table { width: 100%; border-collapse: collapse; }
