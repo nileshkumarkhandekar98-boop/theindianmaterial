@@ -264,6 +264,9 @@ em { font-style: italic; }
 .contact .ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
 .toast { font: 400 11px var(--sans); letter-spacing: .26em; text-transform: uppercase; color: #6fbf9c; min-height: 1.4em; }
 footer { border-top: 1px solid var(--line-dark); padding-block: 36px; color: var(--stone); font-size: 13px; }
+footer .social { display: flex; flex-wrap: wrap; gap: 8px 28px; }
+footer .social a { text-decoration: none; color: var(--stone); transition: color .3s; }
+footer .social a:hover { color: var(--brass-light); }
 footer .inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
 
 @media (max-width: 960px) {
