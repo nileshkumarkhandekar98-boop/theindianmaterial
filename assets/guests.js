@@ -82,13 +82,12 @@
 
   /* timeline */
   const WEEKS = [
+    ["Before", "◦", "Google Meet", "A 20-minute call about your work, then our deck with the full package, pricing and terms.", true],
     ["Week 1", "1", "Confirm and research", "The package is agreed, the shoot date is fixed and we study your work.", false],
     ["Week 2", "2", "Script", "A pre-shoot call, then the questions, 9 hooks and carousel outline come to you for approval.", false],
-    ["Gate", "₹", "Advance paid", "₹20,000, on confirming the shoot date.", true],
     ["Week 3", "3", "Shoot day", "2–3 hours with two cameras, mics, lights and crew.", false],
     ["Weeks 4–5", "4–5", "Edit and revise", "The 9 reels and the carousel, with two rounds of changes.", false],
     ["Weeks 6–9", "6–9", "Posting", "10 collab posts, 2–3 a week at 7:30 PM IST.", false],
-    ["Gate", "₹", "First reel live", "The balance of ₹5,000, once the first reel is live.", true],
     ["Week 13", "13", "Results report", "Views, reach, saves and shares, 30 days after the last post.", false]
   ];
   let wsel = 3;
@@ -101,14 +100,6 @@
   }
   $("weeks").addEventListener("click", (e) => { const b = e.target.closest(".wk"); if (b) { wsel = +b.dataset.i; renderWeeks(); } });
   renderWeeks();
-
-  /* investment toggle */
-  $("addon").addEventListener("change", (e) => {
-    const on = e.target.checked;
-    $("total").textContent = on ? "30,000 – 32,000" : "25,000";
-    $("price-sub").textContent = on ? "Episode package plus a magazine feature" : "All-inclusive · about ₹2,500 per finished piece";
-    $("addon-row").hidden = !on;
-  });
 
   /* guests so far */
   const GUESTS = [
@@ -131,11 +122,11 @@
   /* next steps */
   const who = person ? person.first : "You";
   $("next-list").innerHTML = [
-    who + " confirms the package and picks a shoot date",
-    "Advance of ₹20,000 paid",
-    "Pre-shoot call, then questions and hooks shared for approval",
-    "Shoot day",
-    "First edits shared for review"
+    (person ? person.first + " messages" : "Message") + " us on WhatsApp or by email",
+    "A 20-minute Google Meet to talk about your work",
+    "We send our deck with the full package, pricing, timeline and terms",
+    who + " picks a shoot date, and we research and script",
+    "Shoot day, then your series goes live"
   ].map((x) => "<li>" + x + "</li>").join("");
 
   /* copy email */

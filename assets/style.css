@@ -245,6 +245,8 @@ em { font-style: italic; }
 .invest th { font: 400 10px var(--sans); letter-spacing: .32em; text-transform: uppercase; color: var(--brass); }
 .invest td:first-child { font: 400 26px/1.2 var(--serif); }
 .invest td { color: var(--stone); }
+.meet-note { margin-top: 24px; color: var(--stone); font-size: 15px; }
+.meet-note a { color: var(--brass-light); }
 .invest td.p { color: var(--ivory); white-space: nowrap; font-variant-numeric: tabular-nums; font: 400 22px var(--serif); }
 
 /* pilot + contact */

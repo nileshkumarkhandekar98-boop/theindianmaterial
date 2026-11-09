@@ -101,6 +101,17 @@
 .pay td.amt { font: 400 20px var(--serif); color: var(--brass-light); white-space: nowrap; font-variant-numeric: lining-nums; }
 .pay .note { margin-top: 6px; }
 
+/* book a call */
+.meet-title { font-size: clamp(40px, 5vw, 64px); }
+.meet-title em { color: var(--brass-light); }
+.meet-ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+.sel { user-select: all; color: var(--ivory); }
+ol.meet-steps { list-style: none; margin: 0; padding: 0; counter-reset: m; display: grid; }
+ol.meet-steps li { counter-increment: m; display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 4px 12px; padding: 16px 0; border-top: 1px solid var(--line-dark); }
+ol.meet-steps li::before { content: counter(m, upper-roman); font: italic 400 22px var(--serif); color: var(--brass); grid-row: span 2; }
+ol.meet-steps b { font: 400 22px var(--serif); color: var(--ivory); }
+ol.meet-steps span { color: var(--stone); font-size: 15px; }
+
 /* proof */
 .guests.mini { margin-top: 56px; }
 .guest .you-tag { color: #7fcfa8; }
