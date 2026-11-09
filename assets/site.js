@@ -9,7 +9,9 @@
     "sustainaverse": { name: "Sustainaverse", type: "magazine", fit: "Your readers follow sustainability, and our guests include founders building with sustainable materials." },
     "luxe-code": { name: "Luxe Code", type: "magazine", fit: "Luxe Code covers art, design and luxury, and our guests are luxury designers and craft studios." },
     "family-interiors": { name: "Family Interiors", type: "magazine", fit: "Family Interiors champions architects and interior designers, the very people at our table." },
-    "urban-nest": { name: "Urban Nest", type: "magazine", fit: "Urban Nest is about homes and interiors, and our guests make the lighting, furniture and materials inside them." },
+    "urban-nest": { name: "Dreams Per Square Feet", type: "magazine", fit: "Dreams Per Square Feet connects developers and designers, and our guests make the lighting, furniture and materials that fill those spaces." },
+    "design-essentia": { name: "Design Essentia", type: "magazine", fit: "DE India celebrates Indian architecture, design and craft, the very work our guests make." },
+    "insite": { name: "insite", type: "magazine", fit: "insite gives architecture, interiors, craft and heritage its undivided attention, and those are the worlds our guests come from." },
     "cb-curation": { name: "CB Curation", type: "pr", fit: "Your clients deserve their stories told well, and the show gives them a filmed conversation and a printed feature in one booking." },
     "first-step-pr": { name: "First Step PR", type: "pr", fit: "Your clients are looking for strong early features, and the show gives them a filmed conversation and a magazine column together." }
   };
